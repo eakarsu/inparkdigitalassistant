@@ -1,0 +1,31 @@
+{
+  "id": "inparkdigitalassistant",
+  "title": "Inparkdigitalassistant App",
+  "industry": "Government & Public Sector",
+  "industryId": "government-public-sector",
+  "specialization": "Inparkdigitalassistant",
+  "sourcePlatformGroup": "government-civic-platform",
+  "sources": [
+    "AIInparkdigitalassistant",
+    "AIPublicTransitOptimizer",
+    "AISmartCityTrafficSignal",
+    "AIUrbanPlanningZoningSimulator",
+    "counter-swarm-defense"
+  ],
+  "featureCount": 324,
+  "candidateFeatureCount": 431,
+  "eliminatedSimilarFeatures": 107,
+  "evidenceCount": 832,
+  "aiPageCount": 21,
+  "sourceAIPageCount": 22,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 33,
+    "seededRows": 499
+  },
+  "visibleFeatureCount": 68,
+  "featureVisibilityMode": "seeded-or-ai"
+}
