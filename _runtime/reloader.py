@@ -8,6 +8,8 @@ import sys
 import time
 from pathlib import Path
 
+from exposure_policy import validate_bind_host
+
 
 APP_ROOT = Path(os.environ.get("MERGED_APP_ROOT", os.getcwd())).resolve()
 RUNTIME_ROOT = Path(__file__).resolve().parent
@@ -18,7 +20,7 @@ STOPPING = False
 
 def watched_paths():
     paths = list(RUNTIME_ROOT.glob("*.py"))
-    paths.extend((APP_ROOT / "manifest.json", LOCAL_ENV))
+    paths.extend((APP_ROOT / "manifest.json", APP_ROOT / "workflows.json", LOCAL_ENV))
     return paths
 
 
@@ -57,6 +59,7 @@ def start_child():
 
 
 def main():
+    validate_bind_host(os.environ.get("MERGED_HOST", "127.0.0.1"), os.environ)
     signal.signal(signal.SIGINT, request_stop)
     signal.signal(signal.SIGTERM, request_stop)
     print("Auto-reload enabled for shared runtime, manifest, and environment changes.", flush=True)
