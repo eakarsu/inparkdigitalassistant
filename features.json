@@ -343,6 +343,32 @@
     ]
   },
   {
+    "name": "AI Citizen Complaint Summary",
+    "canonicalKey": "ai citizen complaint summary",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/citizen-complaint-summary"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AICitizenComplaintSummaryPage.js",
+        "route": "/ai/citizen-complaint-summary",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
     "name": "AI Citizen Complaint Summary Page",
     "canonicalKey": "ai citizen complaint summary",
     "aliases": [],
@@ -395,11 +421,42 @@
   {
     "name": "AI Congestion Forecast",
     "canonicalKey": "ai congestion forecast",
-    "aliases": [
-      "AI Congestion Forecast Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/congestion-forecast"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AICongestionForecastPage.js",
+        "route": "/ai/congestion-forecast",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:59",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Congestion Forecast Page",
+    "canonicalKey": "ai congestion forecast",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -413,13 +470,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:59",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AICongestionForecastPage.js",
@@ -431,11 +481,42 @@
   {
     "name": "AI Corridor Coordination",
     "canonicalKey": "ai coordination corridor",
-    "aliases": [
-      "AI Corridor Coordination Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/corridor-coordination"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AICorridorCoordinationPage.js",
+        "route": "/ai/corridor-coordination",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:55",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Corridor Coordination Page",
+    "canonicalKey": "ai coordination corridor",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -449,13 +530,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:55",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AICorridorCoordinationPage.js",
@@ -467,11 +541,42 @@
   {
     "name": "AI Emergency Preempt Sequence",
     "canonicalKey": "ai emergency preempt sequence",
-    "aliases": [
-      "AI Emergency Preempt Sequence Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/emergency-preempt-sequence"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIEmergencyPreemptSequencePage.js",
+        "route": "/ai/emergency-preempt-sequence",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:61",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Emergency Preempt Sequence Page",
+    "canonicalKey": "ai emergency preempt sequence",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -484,13 +589,6 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:61",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
       {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
@@ -520,6 +618,32 @@
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/components/Sidebar.js:71",
         "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Emission Impact Estimate",
+    "canonicalKey": "ai emission estimate impact",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/emission-impact-estimate"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIEmissionImpactEstimatePage.js",
+        "route": "/ai/emission-impact-estimate",
         "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
@@ -575,6 +699,32 @@
     ]
   },
   {
+    "name": "AI Equity Impact Brief",
+    "canonicalKey": "ai brief equity impact",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/equity-impact-brief"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIEquityImpactBriefPage.js",
+        "route": "/ai/equity-impact-brief",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
     "name": "AI Equity Impact Brief Page",
     "canonicalKey": "ai brief equity impact",
     "aliases": [],
@@ -603,11 +753,42 @@
   {
     "name": "AI Equity Response Time",
     "canonicalKey": "ai equity response time",
-    "aliases": [
-      "AI Equity Response Time Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/equity-response-time"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIEquityResponseTimePage.js",
+        "route": "/ai/equity-response-time",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:70",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Equity Response Time Page",
+    "canonicalKey": "ai equity response time",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -621,13 +802,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:70",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AIEquityResponseTimePage.js",
@@ -639,11 +813,42 @@
   {
     "name": "AI Executive Brief",
     "canonicalKey": "ai brief executive",
-    "aliases": [
-      "AI Executive Brief Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/executive-brief"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIExecutiveBriefPage.js",
+        "route": "/ai/executive-brief",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:67",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Executive Brief Page",
+    "canonicalKey": "ai brief executive",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -659,25 +864,11 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:67",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIExecutiveBriefPage.js",
         "route": "/AIExecutiveBriefPage",
         "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:67",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
       },
       {
         "kind": "page",
@@ -691,11 +882,42 @@
   {
     "name": "AI Incident Aware Retime",
     "canonicalKey": "ai aware incident retime",
-    "aliases": [
-      "AI Incident Aware Retime Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/incident-aware-retime"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIIncidentAwareRetimePage.js",
+        "route": "/ai/incident-aware-retime",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:50",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Incident Aware Retime Page",
+    "canonicalKey": "ai aware incident retime",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -709,13 +931,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:50",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AIIncidentAwareRetimePage.js",
@@ -727,11 +942,42 @@
   {
     "name": "AI Incident Response Coordinate",
     "canonicalKey": "ai coordinate incident response",
-    "aliases": [
-      "AI Incident Response Coordinate Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/incident-response-coordinate"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIIncidentResponseCoordinatePage.js",
+        "route": "/ai/incident-response-coordinate",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:62",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Incident Response Coordinate Page",
+    "canonicalKey": "ai coordinate incident response",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -745,13 +991,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:62",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AIIncidentResponseCoordinatePage.js",
@@ -763,11 +1002,42 @@
   {
     "name": "AI Intersection Prioritize",
     "canonicalKey": "ai intersection prioritize",
-    "aliases": [
-      "AI Intersection Prioritize Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/intersection-prioritize"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIIntersectionPrioritizePage.js",
+        "route": "/ai/intersection-prioritize",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:56",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Intersection Prioritize Page",
+    "canonicalKey": "ai intersection prioritize",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -781,13 +1051,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:56",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AIIntersectionPrioritizePage.js",
@@ -799,11 +1062,42 @@
   {
     "name": "AI Ped Conflict Detect",
     "canonicalKey": "ai conflict detect ped",
-    "aliases": [
-      "AI Ped Conflict Detect Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/ped-conflict-detect"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIPedConflictDetectPage.js",
+        "route": "/ai/ped-conflict-detect",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:51",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Ped Conflict Detect Page",
+    "canonicalKey": "ai conflict detect ped",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -817,13 +1111,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:51",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AIPedConflictDetectPage.js",
@@ -835,11 +1122,42 @@
   {
     "name": "AI Performance Anomaly",
     "canonicalKey": "ai anomaly performance",
-    "aliases": [
-      "AI Performance Anomaly Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/performance-anomaly"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIPerformanceAnomalyPage.js",
+        "route": "/ai/performance-anomaly",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:74",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Performance Anomaly Page",
+    "canonicalKey": "ai anomaly performance",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -853,13 +1171,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:74",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AIPerformanceAnomalyPage.js",
@@ -871,11 +1182,42 @@
   {
     "name": "AI Sensor Anomaly",
     "canonicalKey": "ai anomaly sensor",
-    "aliases": [
-      "AI Sensor Anomaly Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/sensor-anomaly"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AISensorAnomalyPage.js",
+        "route": "/ai/sensor-anomaly",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:73",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Sensor Anomaly Page",
+    "canonicalKey": "ai anomaly sensor",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -889,13 +1231,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:73",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AISensorAnomalyPage.js",
@@ -907,11 +1242,42 @@
   {
     "name": "AI Signal Health Prognostic",
     "canonicalKey": "ai health prognostic signal",
-    "aliases": [
-      "AI Signal Health Prognostic Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/signal-health-prognostic"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AISignalHealthPrognosticPage.js",
+        "route": "/ai/signal-health-prognostic",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:68",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Signal Health Prognostic Page",
+    "canonicalKey": "ai health prognostic signal",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -925,13 +1291,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:68",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AISignalHealthPrognosticPage.js",
@@ -943,11 +1302,42 @@
   {
     "name": "AI Signal Timing Optimize",
     "canonicalKey": "ai optimize signal timing",
-    "aliases": [
-      "AI Signal Timing Optimize Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/signal-timing-optimize"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AISignalTimingOptimizePage.js",
+        "route": "/ai/signal-timing-optimize",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:60",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Signal Timing Optimize Page",
+    "canonicalKey": "ai optimize signal timing",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -960,13 +1350,6 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:60",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
       {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
@@ -1001,6 +1384,32 @@
     ]
   },
   {
+    "name": "AI Special Event Signal Plan",
+    "canonicalKey": "ai event plan signal special",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/special-event-signal-plan"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AISpecialEventSignalPlanPage.js",
+        "route": "/ai/special-event-signal-plan",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
     "name": "AI Special Event Signal Plan Page",
     "canonicalKey": "ai event plan signal special",
     "aliases": [],
@@ -1029,11 +1438,42 @@
   {
     "name": "AI Transit Priority Suggest",
     "canonicalKey": "ai priority suggest transit",
-    "aliases": [
-      "AI Transit Priority Suggest Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/transit-priority-suggest"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AITransitPrioritySuggestPage.js",
+        "route": "/ai/transit-priority-suggest",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:52",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Transit Priority Suggest Page",
+    "canonicalKey": "ai priority suggest transit",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -1047,13 +1487,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:52",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AITransitPrioritySuggestPage.js",
@@ -1065,11 +1498,42 @@
   {
     "name": "AI Vendor Quality Score",
     "canonicalKey": "ai quality score vendor",
-    "aliases": [
-      "AI Vendor Quality Score Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/vendor-quality-score"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIVendorQualityScorePage.js",
+        "route": "/ai/vendor-quality-score",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:75",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Vendor Quality Score Page",
+    "canonicalKey": "ai quality score vendor",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -1083,13 +1547,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:75",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/pages/AIVendorQualityScorePage.js",
@@ -1101,11 +1558,42 @@
   {
     "name": "AI Work Order Draft",
     "canonicalKey": "ai draft order work",
-    "aliases": [
-      "AI Work Order Draft Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/work-order-draft"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIWorkOrderDraftPage.js",
+        "route": "/ai/work-order-draft",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/components/Sidebar.js:57",
+        "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Work Order Draft Page",
+    "canonicalKey": "ai draft order work",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -1118,13 +1606,6 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "frontend/src/components/Sidebar.js:57",
-        "route": "",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
       {
         "kind": "page",
         "sourceProject": "AISmartCityTrafficSignal",
@@ -1154,6 +1635,32 @@
         "sourceProject": "AISmartCityTrafficSignal",
         "path": "frontend/src/components/Sidebar.js:53",
         "route": "",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
+    "name": "AI Work Zone Signal Plan",
+    "canonicalKey": "ai plan signal work zone",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/work-zone-signal-plan"
+    ],
+    "sourceProjects": [
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "frontend/src/pages/AIWorkZoneSignalPlanPage.js",
+        "route": "/ai/work-zone-signal-plan",
         "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
@@ -1215,279 +1722,36 @@
     "canonicalKey": "analyze",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
       "/:id/analyze",
-      "/analyze"
+      "/analyze",
+      "/scenario-workbench",
+      "/simulator"
     ],
     "sourceProjects": [
-      "AIConstructionWearableSafetyMonitor",
-      "AICrisisCommunicationAgent",
-      "AIElectionIntegrityMonitor",
-      "AIFactoryFloorSafetyMonitor",
-      "AISchoolSafetyThreatAssessment",
       "AIUrbanPlanningZoningSimulator",
       "counter-swarm-defense"
     ],
     "consolidatedFromApps": [
-      "government-public-sector/construction-wearable-safety-monitor",
-      "government-public-sector/disaster-response-coordinator",
-      "government-public-sector/election-integrity-monitor",
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/airquality.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/ScenarioWorkbench.js:1",
+        "route": "/scenario-workbench",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       },
       {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/emergency.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/environmental.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/equipment.js:100",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/falls.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/fatigue.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/hazards.js:125",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/heatstress.js:105",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/incidents.js:125",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/maintenance.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/noise.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/ppe.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/proximity.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/training.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/workers.js:135",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFactoryFloorSafetyMonitor",
-        "path": "backend/src/routes/crud.js:119",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICrisisCommunicationAgent",
-        "path": "backend/src/routes/sentimentAnalysis.js:43",
-        "route": "/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/accessControl.js:76",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/alerts.js:77",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/audits.js:76",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/behavioral.js:82",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/bullying.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/community.js:78",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/drills.js:97",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/emergency.js:77",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/incidents.js:77",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/mentalHealth.js:82",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/threats.js:127",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/tips.js:79",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/training.js:76",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/visitors.js:122",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/weapons.js:77",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/routes/ballotCounts.js:86",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/routes/campaignFinance.js:80",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/routes/redistricting.js:62",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/routes/voterRegistration.js:80",
-        "route": "/:id/analyze",
-        "originApp": "government-public-sector/election-integrity-monitor"
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/Simulator.js:1",
+        "route": "/simulator",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       },
       {
         "kind": "api",
@@ -3229,30 +3493,12 @@
       "/chat"
     ],
     "sourceProjects": [
-      "AIConstructionWearableSafetyMonitor",
-      "AIInparkdigitalassistant",
-      "AISchoolSafetyThreatAssessment"
+      "AIInparkdigitalassistant"
     ],
     "consolidatedFromApps": [
-      "government-public-sector/construction-wearable-safety-monitor",
-      "government-public-sector/disaster-response-coordinator",
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/ai.js:163",
-        "route": "/chat",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/aiCenter.js:11",
-        "route": "/chat",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
       {
         "kind": "api",
         "sourceProject": "AIInparkdigitalassistant",
@@ -3828,9 +4074,11 @@
     "canonicalKey": "analyzer benefit community",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advisor?tool=community-benefit-analyzer",
       "/community-benefit-analyzer"
     ],
     "sourceProjects": [
@@ -3840,6 +4088,13 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/AIAdvisor.js:1",
+        "route": "/ai-advisor?tool=community-benefit-analyzer",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
       {
         "kind": "api",
         "sourceProject": "AIUrbanPlanningZoningSimulator",
@@ -3854,9 +4109,11 @@
     "canonicalKey": "analysis compliance",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advisor?tool=compliance-analysis",
       "/compliance-analysis"
     ],
     "sourceProjects": [
@@ -3866,6 +4123,13 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/AIAdvisor.js:1",
+        "route": "/ai-advisor?tool=compliance-analysis",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
       {
         "kind": "api",
         "sourceProject": "AIUrbanPlanningZoningSimulator",
@@ -4832,9 +5096,11 @@
     "canonicalKey": "calc density far",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advisor?tool=density-far-calc",
       "/density-far-calc"
     ],
     "sourceProjects": [
@@ -4844,6 +5110,13 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/AIAdvisor.js:1",
+        "route": "/ai-advisor?tool=density-far-calc",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
       {
         "kind": "api",
         "sourceProject": "AIUrbanPlanningZoningSimulator",
@@ -7925,9 +8198,11 @@
     "canonicalKey": "advisor historic preservation",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advisor?tool=historic-preservation-advisor",
       "/historic-preservation-advisor"
     ],
     "sourceProjects": [
@@ -7937,6 +8212,13 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/AIAdvisor.js:1",
+        "route": "/ai-advisor?tool=historic-preservation-advisor",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
       {
         "kind": "api",
         "sourceProject": "AIUrbanPlanningZoningSimulator",
@@ -7951,9 +8233,11 @@
     "canonicalKey": "assessment impact",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advisor?tool=impact-assessment",
       "/impact-assessment"
     ],
     "sourceProjects": [
@@ -7963,6 +8247,13 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/AIAdvisor.js:1",
+        "route": "/ai-advisor?tool=impact-assessment",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
       {
         "kind": "api",
         "sourceProject": "AIUrbanPlanningZoningSimulator",
@@ -9595,6 +9886,32 @@
     ]
   },
   {
+    "name": "Pass 5 Tools",
+    "canonicalKey": "5 pass",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/pass5-tools"
+    ],
+    "sourceProjects": [
+      "AIInparkdigitalassistant"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIInparkdigitalassistant",
+        "path": "frontend/src/pages/Pass5Tools.js:1",
+        "route": "/pass5-tools",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
     "name": "Pass5 Tools",
     "canonicalKey": "pass5",
     "aliases": [],
@@ -11199,9 +11516,11 @@
     "canonicalKey": "compare scenario",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advisor?tool=scenario-compare",
       "/scenario-compare"
     ],
     "sourceProjects": [
@@ -11211,6 +11530,13 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/AIAdvisor.js:1",
+        "route": "/ai-advisor?tool=scenario-compare",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
       {
         "kind": "api",
         "sourceProject": "AIUrbanPlanningZoningSimulator",
@@ -11225,9 +11551,11 @@
     "canonicalKey": "optimizer scenario",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advisor?tool=scenario-optimizer",
       "/scenario-optimizer"
     ],
     "sourceProjects": [
@@ -11237,6 +11565,13 @@
       "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "client/src/pages/AIAdvisor.js:1",
+        "route": "/ai-advisor?tool=scenario-optimizer",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
       {
         "kind": "api",
         "sourceProject": "AIUrbanPlanningZoningSimulator",

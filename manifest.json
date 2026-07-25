@@ -12,12 +12,12 @@
     "AIUrbanPlanningZoningSimulator",
     "counter-swarm-defense"
   ],
-  "featureCount": 347,
-  "candidateFeatureCount": 464,
-  "eliminatedSimilarFeatures": 117,
-  "evidenceCount": 891,
-  "aiPageCount": 21,
-  "sourceAIPageCount": 22,
+  "featureCount": 369,
+  "candidateFeatureCount": 470,
+  "eliminatedSimilarFeatures": 101,
+  "evidenceCount": 883,
+  "aiPageCount": 31,
+  "sourceAIPageCount": 31,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -26,6 +26,6 @@
     "seededTables": 18,
     "seededRows": 270
   },
-  "visibleFeatureCount": 52,
+  "visibleFeatureCount": 69,
   "featureVisibilityMode": "seeded-or-ai"
 }
