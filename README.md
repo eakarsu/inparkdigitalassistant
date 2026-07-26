@@ -3,7 +3,7 @@
 Industry: **Government & Public Sector**  
 Specialization: **Inparkdigitalassistant**
 
-This standalone application consolidates source-backed capabilities into 369 optimized features, including 69 visible data-backed or AI-enabled views. Its public demo SQLite database contains 270 sanitized source rows across 18 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 369 optimized features, including all 369 source-backed feature views. Its public demo SQLite database contains 270 sanitized source rows across 18 imported tables and 120 operational workflow records.
 
 ## Run locally
 
